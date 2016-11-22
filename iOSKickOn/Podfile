@@ -6,6 +6,7 @@ target 'iOS-Kick-On' do
   # use_frameworks!
 
   # Pods for iOS-Kick-On
+  pod "CYLTabBarController"
   pod 'AFNetworking’
   pod 'IQKeyboardManager’
   pod 'SDWebImage'
@@ -14,6 +15,7 @@ target 'iOS-Kick-On' do
   pod 'SWTableViewCell'
   pod 'Masonry'
   
+
   target 'iOS-Kick-OnTests' do
     inherit! :search_paths
     # Pods for testing
