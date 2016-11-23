@@ -35,6 +35,8 @@
 		1E8B7A7D1DE5A7CE00F765C1 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8B7A211DE5A7CE00F765C1 /* libcrypto.a */; };
 		1E8B7A7E1DE5A7CE00F765C1 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8B7A221DE5A7CE00F765C1 /* libssl.a */; };
 		1E8B7A7F1DE5A7CE00F765C1 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8B7A701DE5A7CE00F765C1 /* Order.m */; };
+		1E8B7A821DE5A8C900F765C1 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8B7A811DE5A8C900F765C1 /* BaseViewController.m */; };
+		1E8B7A881DE5A8F900F765C1 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8B7A871DE5A8F900F765C1 /* BaseNavigationController.m */; };
 		1EC79BF91DE3D7CB008A7634 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC79BF81DE3D7CB008A7634 /* main.m */; };
 		1EC79BFC1DE3D7CB008A7634 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC79BFB1DE3D7CB008A7634 /* AppDelegate.m */; };
 		1EC79BFF1DE3D7CB008A7634 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC79BFE1DE3D7CB008A7634 /* ViewController.m */; };
@@ -176,6 +178,10 @@
 		1E8B7A6E1DE5A7CE00F765C1 /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
 		1E8B7A6F1DE5A7CE00F765C1 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
 		1E8B7A701DE5A7CE00F765C1 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		1E8B7A801DE5A8C900F765C1 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		1E8B7A811DE5A8C900F765C1 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		1E8B7A861DE5A8F900F765C1 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		1E8B7A871DE5A8F900F765C1 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		1EC79BF41DE3D7CB008A7634 /* iOS-Kick-On.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Kick-On.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC79BF81DE3D7CB008A7634 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1EC79BFA1DE3D7CB008A7634 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -244,6 +250,10 @@
 		1E8B79591DE59A8900F765C1 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				1E8B7A801DE5A8C900F765C1 /* BaseViewController.h */,
+				1E8B7A811DE5A8C900F765C1 /* BaseViewController.m */,
+				1E8B7A861DE5A8F900F765C1 /* BaseNavigationController.h */,
+				1E8B7A871DE5A8F900F765C1 /* BaseNavigationController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -699,12 +709,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E8B7A731DE5A7CE00F765C1 /* base64.m in Sources */,
+				1E8B7A821DE5A8C900F765C1 /* BaseViewController.m in Sources */,
 				1EC79C291DE3E037008A7634 /* UIView+Frame.m in Sources */,
 				1EC79C351DE44265008A7634 /* NSString+HLExtension.m in Sources */,
 				1EC79BFF1DE3D7CB008A7634 /* ViewController.m in Sources */,
 				1E8B7A7B1DE5A7CE00F765C1 /* APAuthV2Info.m in Sources */,
 				1E8B7A781DE5A7CE00F765C1 /* openssl_wrapper.m in Sources */,
 				1E8B7A771DE5A7CE00F765C1 /* NSDataEx.m in Sources */,
+				1E8B7A881DE5A8F900F765C1 /* BaseNavigationController.m in Sources */,
 				1EC79C321DE3F419008A7634 /* UIImageView+HLAdd.m in Sources */,
 				1E8B7A7C1DE5A7CE00F765C1 /* AppDelegate+ALiPay.m in Sources */,
 				1EC79BFC1DE3D7CB008A7634 /* AppDelegate.m in Sources */,
