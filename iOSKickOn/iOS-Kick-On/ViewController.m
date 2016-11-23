@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "UIImage+HLAdd.h"
 #import "UIImageView+HLAdd.h"
-#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <ReactiveObjC/ReactiveObjC.h>
 
 @interface ViewController ()
 

@@ -9,6 +9,7 @@
 #ifndef AppConfig_h
 #define AppConfig_h
 
+
 #pragma mark - #pragma mark -  callService
 
 #define NavigationBar_HEIGHT 44     //导航控制器
@@ -118,10 +119,6 @@
 //当前系统设置语言的iso code
 #define languageISO [[NSLocale currentLocale] objectForKey: NSLocaleLanguageCode]
 
-static NSString *(^CountryNameByISO)(NSString *) = ^(NSString *iso) {
-    NSLocale *locale = [NSLocale currentLocale];
-    return [locale displayNameForKey:NSLocaleCountryCode value:iso];
-};
 
 
 #define CountryNameFromISO(iso) CountryNameByISO(iso)

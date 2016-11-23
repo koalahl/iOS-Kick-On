@@ -9,6 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (HLExtension)
+- (BOOL) justEmail;
+- (BOOL) justMobile;
+- (BOOL) justUserName;
+- (BOOL) justPassword;
 - (BOOL)empty;
 - (BOOL)notEmpty;
 - (NSString *)md5;
