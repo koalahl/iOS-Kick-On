@@ -1,12 +1,9 @@
 # Uncomment this line to define a global platform for your project
-platform :ios, ‘8.0’
+platform :ios, ‘9.0’
 
 target 'iOS-Kick-On' do
-  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
-
   # Pods for iOS-Kick-On
-  pod "CYLTabBarController"
+  pod 'CYLTabBarController'
   pod 'AFNetworking’
   pod 'IQKeyboardManager’
   pod 'SDWebImage'
@@ -14,6 +11,14 @@ target 'iOS-Kick-On' do
   pod ‘YYModel’
   pod 'SWTableViewCell'
   pod 'Masonry'
+  pod 'ReactiveObjC'
+  
+  
+  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+  # if you use swift, comment this rac version
+  #pod 'ReactiveCocoa', '5.0.0-alpha.3'
+
   
 
   target 'iOS-Kick-OnTests' do

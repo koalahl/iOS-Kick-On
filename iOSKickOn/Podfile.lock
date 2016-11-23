@@ -14,13 +14,14 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - CYLTabBarController (1.6.0)
-  - IQKeyboardManager (4.0.4)
-  - Masonry (1.0.1)
+  - CYLTabBarController (1.6.7)
+  - IQKeyboardManager (4.0.7)
+  - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
-  - SDWebImage (3.8.1):
-    - SDWebImage/Core (= 3.8.1)
-  - SDWebImage/Core (3.8.1)
+  - ReactiveObjC (2.1.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
   - SWTableViewCell (0.3.7)
   - YYModel (1.0.4)
 
@@ -30,20 +31,22 @@ DEPENDENCIES:
   - IQKeyboardManager
   - Masonry
   - MBProgressHUD
+  - ReactiveObjC
   - SDWebImage
   - SWTableViewCell
   - YYModel
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  CYLTabBarController: efbdd574772be17f17965acd7ee993f5972ff02f
-  IQKeyboardManager: 4a6f83b540283c2645aaeba2bd8dc0f09b5c77f8
-  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  CYLTabBarController: cc8b19463bd3a3d4b886a55c0a9440fdceefd3d6
+  IQKeyboardManager: 69002bb4fea60596b710e57d426abc00e5063630
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
-  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  ReactiveObjC: 2edae120982d8e6d5407503a10edcfdd87eb8639
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: ae69d64f211d8116999693348456cc7035d542a0
+PODFILE CHECKSUM: c51e735607219c95afa0f5a15b079d8f32d13d51
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.1
